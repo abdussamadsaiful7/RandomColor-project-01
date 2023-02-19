@@ -11,12 +11,12 @@ window.onload = () => {
 };
 
 function main(){
- const root = document.getElementById('mixColor');
+ const randomColor = document.getElementById('mixColor');
  const btn = document.getElementById('change-btn');
 
  btn.addEventListener('click', function(){
     const bgColor = generateRGBColor();
-    root.style.backgroundColor = bgColor;
+    randomColor.style.backgroundColor = bgColor;
  })
 };
 
